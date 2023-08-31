@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a6428406eb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <img src="css/images/LOGO_Placeholder.svg" alt="logo" class="logo">
+            <div class="navbar">
+                <div class="nav-items">
+                    <a href="#" class="nav-item">start</a>
+                    <a href="#about" class="nav-item">o mnie</a>
+                    <a href="#gallery" class="nav-item">galeria</a>
+                    <a href="#" class="nav-item openForm">kontakt</a>
+                </div>
+                <div class="nav-links">
+                    <a href="#" class="nav-link"><img src="/css/images/facebook.svg" alt="facebook-icon"></a>
+                    <a href="#" class="nav-link"><img src="/css/images/instagram.svg" alt="instagram-icon"></a>
+                    <a href="#" class="nav-link"><img src="/css/images/youtube.svg" alt="youtube-icon"></a>
+                </div>
+
+            </div>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="close">
+                <i class="fa-solid fa-x"></i>
+            </div>
+        </div>
+
+    </nav>
+
+    <header>
+    </header>
+    <main>
+        <div class="contact-form">
+            <form action="" method="POST">
+                <div class="form-box">
+                    <label for="name">imię<span class="star">*</span></label>
+                    <input type="text" id="name" placeholder="- wpisz -" name="name" id="name">
+                </div>
+                <div class="form-box">
+                    <label for="lastname">nazwisko<span class="star">*</span></label>
+                    <input type="text" id="lastname" placeholder="- wpisz -" name="lastname" id="lastname">
+                </div>
+                <div class="form-box">
+                    <label for="email">adres e-mail<span class="star">*</span></label>
+                    <input type="email" id="email" placeholder="- wpisz -" name="email" id="email">
+
+                </div>
+                <p class="demand"> <span class="star">*</span>- pola wymagane</p>
+
+                <label class="checkbox">
+                    <input type="checkbox" checked>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                </label>
+                <div class="buttons">
+                    <button class="btnForm send" type="submit">Wyślij</button>
+                </div>
+                <p class="errortext"></p>
+                <div class="close">
+                    <img src="/css/images/close.svg" alt="close xmark">
+                </div>
+            </form>
+        </div>
+
+        <section id="about" class="about">
+            <div class="hero-img">
+
+            </div>
+            <div class="text">
+                <h2 class="section-heading">o mnie</h2>
+                <div class="text-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p> <br>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.</p>
+                    <br>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                        fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    <br>
+                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                        quia non numquam.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2 class="section-heading"> galeria</h2>
+
+            <div class="slider-container">
+                <div><button class="slider-btn left"><i class="fa-solid fa-chevron-left"></i></button></div>
+                <div class="cover">
+                    <div class="scroll-images">
+                        <div class="child first"><img class="child-img"
+                                src="/css/images/reinhart-julian-_r0lZDocH78-unsplash.png" alt=""></div>
+                        <div class="child"><img class="child-img"
+                                src="css/images/reinhart-julian-S9BOTsGr2ww-unsplash.png" alt=""></div>
+                        <div class="child"><img class="child-img"
+                                src="css/images/reinhart-julian-H4AejIh_l7g-unsplash.png" alt=""></div>
+                        <div class="child last"><img class="child-img"
+                                src="css/images/reinhart-julian-VnI_piHNlok-unsplash.png" lt=""></div>
+                    </div>
+                </div>
+                <div><button class="slider-btn right"><i class="fa-solid fa-chevron-right"></i></button></div>
+                <div class="circle-btns">
+                    <button class="circle-btn active" id="one"></button>
+                    <button class="circle-btn" id="two"></button>
+                    <button class="circle-btn" id="three"></button>
+                    <button class="circle-btn" id="four"></button>
+                </div>
+
+
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
